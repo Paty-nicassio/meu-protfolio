@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Portfólio de Patrícia Nicássio, desenvolvedora Front-end em formação."
+  >
+
+  <title>Patrícia Nicássio | Desenvolvedora Front-end</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <nav class="navegacao container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio">PN<span>.dev</span></a>
+
+      <button
+        class="menu-botao"
+        id="menu-botao"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+        aria-controls="menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="menu" id="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-conteudo">
+        <p class="etiqueta">
+          <span class="ponto"></span>
+          EM FORMAÇÃO • FRONT-END
+        </p>
+
+        <h1>
+          Olá, sou a Patrícia.
+          <span>Desenvolvedora Front-end em formação.</span>
+        </h1>
+
+        <p class="hero-descricao">
+          Estou aprendendo a transformar ideias em experiências digitais
+          por meio de sites modernos, responsivos e funcionais.
+        </p>
+
+        <div class="hero-botoes">
+          <a class="botao botao-principal" href="#projetos">
+            Conheça meus projetos
+            <span aria-hidden="true">↗</span>
+          </a>
+
+          <a class="botao botao-secundario" href="#sobre">
+            Sobre mim
+          </a>
+        </div>
+
+        <p class="hero-nota">
+          Em constante aprendizado, um projeto de cada vez.
+        </p>
+      </div>
+
+      <div class="hero-visual" aria-label="Resumo das tecnologias em estudo">
+        <div class="orb orb-um"></div>
+        <div class="orb orb-dois"></div>
+
+        <div class="codigo-card">
+          <div class="janela-topo">
+            <div class="janela-pontos">
+              <span></span><span></span><span></span>
+            </div>
+            <span>meu-portfolio.js</span>
+          </div>
+
+          <div class="codigo-linhas" aria-hidden="true">
+            <p><span class="codigo-roxo">const</span> nome = <span class="codigo-verde">"Patrícia"</span>;</p>
+            <p><span class="codigo-roxo">const</span> area = <span class="codigo-verde">"Front-end"</span>;</p>
+            <p class="espaco-codigo"></p>
+            <p><span class="codigo-azul">function</span> <span class="codigo-amarelo">aprender</span>() {</p>
+            <p class="indentado">praticar();</p>
+            <p class="indentado">construirProjetos();</p>
+            <p>}</p>
+          </div>
+
+          <div class="tecnologias-mini">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JS</span>
+          </div>
+        </div>
+
+        <div class="visual-legenda">
+          <span class="status-ponto"></span>
+          Construindo meu caminho na tecnologia
+        </div>
+      </div>
+    </section>
+
+    <section class="secao container" id="sobre">
+      <div class="titulo-secao">
+        <p class="sobretitulo">CONHEÇA MINHA HISTÓRIA</p>
+        <h2>Sobre <span>mim</span></h2>
+      </div>
+
+      <div class="sobre-card">
+        <div class="sobre-icone" aria-hidden="true">&lt;/&gt;</div>
+
+        <div>
+          <h3>Aprender, praticar e evoluir.</h3>
+
+          <p>
+            Sou estudante de Desenvolvimento Web, com foco em Front-end.
+            Tenho estudado HTML, CSS e os fundamentos de JavaScript por
+            meio de aulas, exercícios e páginas práticas.
+          </p>
+
+          <p>
+            Estou construindo meu conhecimento passo a passo e quero
+            transformar o que aprendo em projetos cada vez melhores.
+            Busco minha primeira oportunidade na área para continuar
+            evoluindo e colaborar com uma equipe de tecnologia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-alternada" id="habilidades">
+      <div class="container">
+        <div class="titulo-secao">
+          <p class="sobretitulo">O QUE ESTOU APRENDENDO</p>
+          <h2>Minhas <span>habilidades</span></h2>
+          <p class="texto-apoio">
+            Tecnologias que estou estudando e praticando na minha jornada.
+          </p>
+        </div>
+
+        <div class="habilidades-grid">
+          <article class="habilidade-card">
+            <div class="habilidade-simbolo html-simbolo">5</div>
+            <h3>HTML5</h3>
+            <p>Estrutura e organização do conteúdo das páginas web.</p>
+            <span class="nivel">Em desenvolvimento</span>
+          </article>
+
+          <article class="habilidade-card">
+            <div class="habilidade-simbolo css-simbolo">#</div>
+            <h3>CSS3</h3>
+            <p>Estilização, layouts e adaptação para diferentes telas.</p>
+            <span class="nivel">Em desenvolvimento</span>
+          </article>
+
+          <article class="habilidade-card">
+            <div class="habilidade-simbolo js-simbolo">JS</div>
+            <h3>JavaScript</h3>
+            <p>Fundamentos da linguagem e interatividade nas páginas.</p>
+            <span class="nivel">Aprendendo o básico</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao container" id="projetos">
+      <article class="projeto-card">
+    <span class="projeto-status">Em desenvolvimento</span>
+
+    <h3>Meu primeiro site responsivo</h3>
+
+    <p>
+        Uma página criada para praticar HTML e CSS,
+        com foco em organização visual e adaptação
+        para celulares e computadores.
+    </p>
+
+    <div class="projeto-tecnologias">
+        <span>HTML</span>
+        <span>CSS</span>
+    </div>
+  </article>
+      <div class="titulo-secao">
+        <p class="sobretitulo">MINHA PRÁTICA</p>
+        <h2>Projetos em <span>construção</span></h2>
+        <p class="texto-apoio">
+          Ideias que estou desenvolvendo para praticar e ampliar meu portfólio.
+        </p>
+      </div>
+
+      <div class="projetos-grid">
+        <article class="projeto-card">
+          <div class="projeto-visual projeto-visual-um">
+            <span class="projeto-numero">01</span>
+            <span class="projeto-icone" aria-hidden="true">&lt;/&gt;</span>
+          </div>
+
+          <div class="projeto-conteudo">
+            <span class="projeto-status">IDEIA DE PROJETO</span>
+            <h3>Portfólio pessoal</h3>
+            <p>
+              Este site é meu espaço para apresentar minha jornada,
+              meus conhecimentos e os projetos que desenvolver.
+            </p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a class="link-projeto" href="#contato">
+              Acompanhe minha evolução <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="projeto-card">
+          <div class="projeto-visual projeto-visual-dois">
+            <span class="projeto-numero">02</span>
+            <span class="projeto-icone" aria-hidden="true">✓</span>
+          </div>
+
+          <div class="projeto-conteudo">
+            <span class="projeto-status">PRÓXIMO DESAFIO</span>
+            <h3>Lista de tarefas</h3>
+            <p>
+              Projeto planejado para praticar eventos, manipulação do DOM
+              e funções básicas de JavaScript.
+            </p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <span class="link-projeto texto-inativo">Ainda não implementado</span>
+          </div>
+        </article>
+
+        <article class="projeto-card">
+          <div class="projeto-visual projeto-visual-tres">
+            <span class="projeto-numero">03</span>
+            <span class="projeto-icone" aria-hidden="true">✳</span>
+          </div>
+
+          <div class="projeto-conteudo">
+            <span class="projeto-status">PRÓXIMO DESAFIO</span>
+            <h3>Site para cafeteria</h3>
+            <p>
+              Uma página fictícia para praticar layouts, cartões de produtos
+              e adaptação para dispositivos móveis.
+            </p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>Responsivo</span>
+            </div>
+            <span class="link-projeto texto-inativo">Ainda não implementado</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="aviso-projetos">
+        Os projetos 2 e 3 são ideias para desenvolver futuramente.
+        Não representam trabalhos concluídos.
+      </p>
+    </section>
+
+    <section class="secao secao-contato" id="contato">
+      <div class="container contato-card">
+        <p class="sobretitulo">VAMOS NOS CONECTAR</p>
+        <h2>O próximo capítulo começa <span>agora.</span></h2>
+        <p>
+          Estou construindo minha trajetória em Front-end e aberta a
+          conhecer pessoas, trocar experiências e descobrir oportunidades.
+        </p>
+
+        <div class="contato-botoes">
+          <!-- Troque o endereço abaixo pelo link do seu LinkedIn. -->
+          <a
+            class="botao botao-principal"
+            href="https://www.linkedin.com/in/patrícia-nicassio-b519252aa/?isSelfProfile=true"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Meu LinkedIn ↗
+          </a>
+
+          <!-- Substitua pelo seu nome de usuário do GitHub. -->
+          <a
+            class="botao botao-secundario"
+            href="https://github.com/Paty-nicassio/Paty-nicassio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Meu GitHub ↗
+          </a>
+        </div>
+
+        <p class="contato-nota">
+          Lembre-se de atualizar os links para seus perfis pessoais.
+        </p>
+      </div>
+    </section>
+  </main>
